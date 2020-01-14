@@ -1,5 +1,5 @@
 class student:
-    def __init__(self, name, type, password, phone, student_serial_number):
+    def __init__(self, name, type, password, phone, student_serial_number=0):
         """Student Constructor"""
         self.name = name
         self.password = password
